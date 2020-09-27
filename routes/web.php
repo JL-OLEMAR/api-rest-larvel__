@@ -39,6 +39,7 @@ Route::get('/', function () {
     Route::post('/api/user/upload','UserController@upload')->middleware(ApiAuthMiddleware::class);
     Route::get('/api/user/avatar/{filename}','UserController@getImage');
     Route::get('/api/user/detail/{id}','UserController@detail');
+    Route::get('/api/user/detail/{id}','UserController@detaildkfksd');
 
 
 
